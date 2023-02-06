@@ -26,8 +26,8 @@ def filter_prime(list:list):
         if che and x!=4:
             newlist.append(x)
     return newlist
-
-# print(filter_prime([i for i in range(0, 1000)]))
+n = int(input())
+print(filter_prime([i for i in range(0, n)]))
 
 def permutations(s):
     base = len(s)
