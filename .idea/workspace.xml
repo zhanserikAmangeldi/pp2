@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dc32e78-94c7-443b-90c5-307d911a0880" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first attestation/practice 3/classesssss.py" beforeDir="false" afterPath="$PROJECT_DIR$/first attestation/practice 3/classesssss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first attestation/practice 3/function1.py" beforeDir="false" afterPath="$PROJECT_DIR$/first attestation/practice 3/function1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first attestation/practice 3/guessTheNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/first attestation/practice 3/guessTheNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-study/algo.py" beforeDir="false" afterPath="$PROJECT_DIR$/self-study/algo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +44,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.classesssss">
-    <configuration name="classesssss" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.work_load">
+    <configuration name="JSONpy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PP2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,12 +53,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first attestation/practice 3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/self-study/jsonpy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first attestation/practice 3/classesssss.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/self-study/jsonpy/JSONpy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="for" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="work_dump" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PP2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,12 +75,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first attestation/practice 2/loops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/self-study/jsonpy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first attestation/practice 2/loops/for.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/self-study/jsonpy/work_dump.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="function1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="work_dumps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PP2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,12 +97,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first attestation/practice 3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/self-study/jsonpy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first attestation/practice 3/function1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/self-study/jsonpy/work_dumps.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="guessTheNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="work_load" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PP2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,12 +119,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first attestation/practice 3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/self-study/jsonpy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first attestation/practice 3/guessTheNumber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/self-study/jsonpy/work_load.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="while" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="work_loads" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PP2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,12 +141,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first attestation/practice 2/loops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/self-study/jsonpy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first attestation/practice 2/loops/while.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/self-study/jsonpy/work_loads.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.classesssss" />
-        <item itemvalue="Python.function1" />
-        <item itemvalue="Python.guessTheNumber" />
-        <item itemvalue="Python.while" />
-        <item itemvalue="Python.for" />
+        <item itemvalue="Python.work_load" />
+        <item itemvalue="Python.work_loads" />
+        <item itemvalue="Python.work_dump" />
+        <item itemvalue="Python.work_dumps" />
+        <item itemvalue="Python.JSONpy" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +185,9 @@
       <workItem from="1675757961408" duration="549000" />
       <workItem from="1675833292876" duration="1349000" />
       <workItem from="1675842328510" duration="11000" />
-      <workItem from="1676014247330" duration="3807000" />
+      <workItem from="1676014247330" duration="4190000" />
+      <workItem from="1676031642701" duration="471000" />
+      <workItem from="1676032224919" duration="5468000" />
     </task>
     <servers />
   </component>
@@ -212,19 +211,24 @@
     <SUITE FILE_PATH="coverage/PP2$lists.coverage" NAME="lists Coverage Results" MODIFIED="1675562167812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 2" />
     <SUITE FILE_PATH="coverage/PP2$access.coverage" NAME="access Coverage Results" MODIFIED="1675599831151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 2/dictionary" />
     <SUITE FILE_PATH="coverage/PP2$guessTheNumber.coverage" NAME="guessTheNumber Coverage Results" MODIFIED="1675833812753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 3" />
-    <SUITE FILE_PATH="coverage/PP2$classesssss.coverage" NAME="classesssss Coverage Results" MODIFIED="1676017431266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 3" />
+    <SUITE FILE_PATH="coverage/PP2$classesssss.coverage" NAME="classesssss Coverage Results" MODIFIED="1676018136352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 3" />
     <SUITE FILE_PATH="coverage/PP2$list.coverage" NAME="list Coverage Results" MODIFIED="1675504519755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation" />
     <SUITE FILE_PATH="coverage/PP2$while.coverage" NAME="while Coverage Results" MODIFIED="1675625448888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 2/loops" />
     <SUITE FILE_PATH="coverage/PP2$main.coverage" NAME="main Coverage Results" MODIFIED="1675598984818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 2/dictionary" />
     <SUITE FILE_PATH="coverage/PP2$remove_dictionary.coverage" NAME="remove dictionary Coverage Results" MODIFIED="1675600057626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 2/dictionary" />
     <SUITE FILE_PATH="coverage/PP2$set.coverage" NAME="set Coverage Results" MODIFIED="1675598442240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 2" />
+    <SUITE FILE_PATH="coverage/PP2$work_load.coverage" NAME="work_load Coverage Results" MODIFIED="1676036987875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-study/jsonpy" />
     <SUITE FILE_PATH="coverage/PP2$lambda.coverage" NAME="lambda Coverage Results" MODIFIED="1675508791166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/lecture 3" />
     <SUITE FILE_PATH="coverage/PP2$class.coverage" NAME="class Coverage Results" MODIFIED="1675510831020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/lecture 3" />
+    <SUITE FILE_PATH="coverage/PP2$JSONpy.coverage" NAME="JSONpy Coverage Results" MODIFIED="1676033430889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-study/jsonpy" />
     <SUITE FILE_PATH="coverage/PP2$function2.coverage" NAME="function2 Coverage Results" MODIFIED="1675554776048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 3" />
     <SUITE FILE_PATH="coverage/PP2$booleans.coverage" NAME="booleans Coverage Results" MODIFIED="1675559206969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 2" />
     <SUITE FILE_PATH="coverage/PP2$tuples.coverage" NAME="tuples Coverage Results" MODIFIED="1675563287543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 2" />
     <SUITE FILE_PATH="coverage/PP2$for.coverage" NAME="for Coverage Results" MODIFIED="1675601158686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 2/loops" />
     <SUITE FILE_PATH="coverage/PP2$function1.coverage" NAME="function1 Coverage Results" MODIFIED="1675834879223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/practice 3" />
     <SUITE FILE_PATH="coverage/PP2$Function.coverage" NAME="Function Coverage Results" MODIFIED="1675507508631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first attestation/lecture 3" />
+    <SUITE FILE_PATH="coverage/PP2$work_loads.coverage" NAME="work_loads Coverage Results" MODIFIED="1676036722911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-study/jsonpy" />
+    <SUITE FILE_PATH="coverage/PP2$work_dumps.coverage" NAME="work_dumps Coverage Results" MODIFIED="1676035129425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-study/jsonpy" />
+    <SUITE FILE_PATH="coverage/PP2$work_dump.coverage" NAME="work_dump Coverage Results" MODIFIED="1676035643243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-study/jsonpy" />
   </component>
 </project>
