@@ -1,4 +1,4 @@
-import math
+import math, itertools
 
 def gramsToOunces(grams):
     ounces = grams * 28.3495231
@@ -26,19 +26,23 @@ def filter_prime(list:list):
         if che and x!=4:
             newlist.append(x)
     return newlist
-n = int(input())
-print(filter_prime([i for i in range(0, n)]))
+# n = int(input())
+# print(filter_prime([i for i in range(0, n)]))
 
-def permutations(s):
+def permutation1(s):
     base = len(s)
     for n in range(base**base):
         yield "".join(s[n // base**(base-d-1) % base] for d in range(base))
 
-def permutation(string):
+def permutations_itertools(strings):
+    return [''.join(p) for p in itertools.permutations(strings)]
+
+print(permutations_itertools("abc"))
+def permutation2(strings):
     list = []
-    base = len(string)
+    base = len(strings)
     for n in range(base**base):
-        list += ["".join(string[n // base**(base - d - 1) % base] for  d in range(base))]
+        list += ["".join(strings[n // base**(base - d - 1) % base] for  d in range(base))]
     return list
 
 # print(permutation("abc"))

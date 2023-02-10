@@ -56,11 +56,11 @@ class Account:
             print("Error : Withdraw > balance")
 
 number = [x for x in range(1000)]
-prime = lambda x: all(x%y!=0 for y in range(2,x))
-number = list(filter(lambda x: all(x%y!=0 for y in range(2,x)), number))
+prime = lambda x: False if x == 0 or x == 1 else all(x % y != 0 for y in range(2, x) )
+number = list(filter(prime, number))
 print(number)
 
-
+print(all([0]))
 
 
 
