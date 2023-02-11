@@ -19,6 +19,8 @@ def howmany(numheads, numlegs):
 def filter_prime(list:list):
     newlist = []
     for x in list:
+        if x == 0 or x == 1:
+            continue
         che = True
         for i in range(2, int(x/2)):
             if x%i == 0:
@@ -29,21 +31,11 @@ def filter_prime(list:list):
 # n = int(input())
 # print(filter_prime([i for i in range(0, n)]))
 
-def permutation1(s):
-    base = len(s)
-    for n in range(base**base):
-        yield "".join(s[n // base**(base-d-1) % base] for d in range(base))
 
 def permutations_itertools(strings):
     return [''.join(p) for p in itertools.permutations(strings)]
 
 print(permutations_itertools("abc"))
-def permutation2(strings):
-    list = []
-    base = len(strings)
-    for n in range(base**base):
-        list += ["".join(strings[n // base**(base - d - 1) % base] for  d in range(base))]
-    return list
 
 # print(permutation("abc"))
 
@@ -68,14 +60,16 @@ def has_33(list):
     return False
 
 def spy_game(list):
-    che = True
-    for i in range(len(list)):
-        if list[i] == 7:
-            che = True
-        elif list[i] == 0:
-            che = False
-    return che
-
+    che = 0
+    for i in list:
+        if i == 0:
+            che += 1
+        if i == 7:
+            che -= 2
+            if che == 0:
+                return True
+    return False
+# print(spy_game([0,1,0,2,7,2,4,5]))
 def getV(r):
     return (4*math.pi*pow(r,3))/3
 
@@ -110,4 +104,4 @@ def histogram(list):
     return histo
 
 # print(histogram([3,4,5]))
-
+print(filter_prime([x for x in range(1000)]))
