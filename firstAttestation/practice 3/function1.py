@@ -35,7 +35,7 @@ def filter_prime(list:list):
 def permutations_itertools(strings):
     return [''.join(p) for p in itertools.permutations(strings)]
 
-print(permutations_itertools("abc"))
+# print(permutations_itertools("abc"))
 
 # print(permutation("abc"))
 
@@ -104,4 +104,4 @@ def histogram(list):
     return histo
 
 # print(histogram([3,4,5]))
-print(filter_prime([x for x in range(1000)]))
+# print(filter_prime([x for x in range(1000)]))

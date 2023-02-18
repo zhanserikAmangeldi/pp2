@@ -1,6 +1,6 @@
 import function1
 
-print(function1.permutation("abc"))
+print(function1.permutations_itertools("abc"))
 
 print(function1.getunique([1,3,42,4,6,4,3,64,3,56,3]))
 
