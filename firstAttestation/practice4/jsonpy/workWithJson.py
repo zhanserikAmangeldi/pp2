@@ -15,4 +15,5 @@ for i in range(len(file['imdata'])):
     z = len("topology/pod-1/node-201/sys/phys-[eth1/33]")
     y = len(file["imdata"][i]["l1PhysIf"]["attributes"]['dn'])
     print(file["imdata"][i]["l1PhysIf"]["attributes"]['dn'], 
-        ' '*(x - ( y - z)), file["imdata"][i]["l1PhysIf"]["attributes"]['speed'], ' '*1, file["imdata"][i]["l1PhysIf"]["attributes"]['mtu'])
+        ' '*(x - ( y - z)), file["imdata"][i]["l1PhysIf"]["attributes"]['speed'],
+        ' '*1, file["imdata"][i]["l1PhysIf"]["attributes"]['mtu'])

@@ -12,4 +12,12 @@ eval "$(ssh-agent -s)"
 
 ssh-add ~/.ssh/id_ed25519
 
+
+
+### for 100 precent push ###
+
+git push origin main --force
+
+############################
+
 """

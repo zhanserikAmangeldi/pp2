@@ -12,4 +12,5 @@ def areaOfRegularPolygon(lenght, sides):
 
 def areaOfParallelogram(lenght, height):
     return lenght * height
+
 print(areaOfRegularPolygon(10, 6))
