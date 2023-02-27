@@ -1,5 +1,5 @@
 import re
-text = "BlueHeadGreen"
+text = "blueHeadGreen"
 pattern1 = r'ab{0,}'
 
 pattern2 = r'ab{2,3}'
@@ -32,8 +32,6 @@ def pattern8(s:str):
         s = s.replace(i, f' {temp2}')     
     return re.split(r' ', s)
 
-print(pattern8(text))
-
 
 def pattern9(s:str):
     t = re.findall(r'[A-Z]', s)
@@ -46,4 +44,12 @@ def pattern9(s:str):
         s = s.replace(i, f' {temp2}')     
     return s
 
+def pattern10(s:str):
+    t = re.findall(r'[A-Z]', s)
+    for i in t:
+        temp = s.index(i)
+        temp2 = s[temp]
+        s = s.replace(i, f'_{temp2.lower()}')
+    return s
 
+print(pattern10(text))
