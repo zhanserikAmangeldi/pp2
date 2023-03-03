@@ -13,43 +13,29 @@ pattern5 = r'a.*b'
 pattern6 = re.sub(r'[\s,.]', ':', text) 
 # x = re.findall(pattern5, text)
 
-def pattern7(s:str):
-    t = re.findall(r'_[a-z]', s)
-    for i in t:
-        temp = s.index(i)
-        temp2 = s[temp+1]
-        s = re.sub(r'_[a-z]', f'{temp2.capitalize()}',s)
-    return s
+def p7(text):
+    return text.group("snake") + text.group("camel").capitalize()
+pattern7 = r'(?P<snake>[a-z]+)(?P<camel>_[a-z])'
+# print(re.sub(pattern7, p7, text))
 
-def pattern8(s:str):
-    t = re.findall(r'[A-Z]', s)
-    list = []
-    for i in t:
-        temp = s.index(i)
-        if(temp == 0):
-            continue
-        temp2 = s[temp]
-        s = s.replace(i, f' {temp2}')     
-    return re.split(r' ', s)
+pattern8 = r'[A-Z][a-z]*'
+
+# print(re.findall(pattern8, text))
 
 
-def pattern9(s:str):
-    t = re.findall(r'[A-Z]', s)
-    for i in t:
 
-        temp = s.index(i)
-        if(temp == 0):
-            continue
-        temp2 = s[temp]
-        s = s.replace(i, f' {temp2}')     
-    return s
+def p9(s:str):
+    return s.group("before") + " " + s.group("after")
+pattern9 = r'(?P<before>[a-z]+)(?P<after>[A-Z].)'
+# print(re.sub(pattern9, p9, text))
 
-def pattern10(s:str):
-    t = re.findall(r'[A-Z]', s)
-    for i in t:
-        temp = s.index(i)
-        temp2 = s[temp]
-        s = s.replace(i, f'_{temp2.lower()}')
-    return s
+def p10(s:str):
+    return s.group("before") + "_" + s.group("snake").lower()
 
-print(pattern10(text))
+pattern10 = r'(?P<before>[a-z]+)(?P<snake>[A-Z])'
+
+print(re.sub(pattern10, p10, text))
+
+
+
+# print(pattern10(text))
