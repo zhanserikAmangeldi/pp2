@@ -14,7 +14,6 @@ cat = input()
 #         print(os.path.join(i, z))
 
 ############### second ###############
-
 '''
 print(os.access(cat, os.F_OK))
 

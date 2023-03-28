@@ -13,5 +13,5 @@ def dif(first, second):
     print(first)
     print(second)
     return abs(first.timestamp() - second.timestamp())
-
-print(dif(datetime.datetime.now(), datetime.datetime(2020, 5, 6, 13, 52, 5, 208688)))
+print(fiveDays())
+# print(dif(datetime.datetime.now(), datetime.datetime(2020, 5, 6, 13, 52, 5, 208688)))
