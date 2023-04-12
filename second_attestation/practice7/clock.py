@@ -5,9 +5,8 @@ def rotate(surface, angle):
     rotated_rect = rotated_surface.get_rect(center=(320,240))
     return rotated_surface, rotated_rect
 
+
 pygame.init()
-
-
 
 clock = pygame.time.Clock()
 screen_width = 640
@@ -27,17 +26,16 @@ while True:
     screen.fill('black')
     angle_min = datetime.datetime.now().minute
     angle_hour = datetime.datetime.now().second
-    print(angle_min)
-    print(angle_hour)
+    # print(angle_min)
+    # print(angle_hour)
 
     rotated_surface_minute, rotated_rect_minute = rotate(hand_minute, angle_min * 6)
 
-
     rotated_surface_hour, rotated_rect_hour = rotate(hand_hour, angle_hour * 6)
-
 
     screen.blit(mickey,(0,0))
     screen.blit(rotated_surface_minute, rotated_rect_minute)
     screen.blit(rotated_surface_hour, rotated_rect_hour)
+    print(rotated_rect_hour.topleft)
     pygame.display.update()
     clock.tick(60)
