@@ -15,7 +15,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 
 mickey = pygame.image.load('mickey.jpg')
 hand_minute = pygame.image.load('hand_minute.png')
-hand_hour = pygame.image.load('hand_second.png')
+hand_second = pygame.image.load('hand_second.png')
 
 
 while True:
@@ -24,18 +24,18 @@ while True:
             pygame.quit()
             sys.exit()
     screen.fill('black')
+
     angle_min = datetime.datetime.now().minute
+
     angle_hour = datetime.datetime.now().second
-    # print(angle_min)
-    # print(angle_hour)
 
     rotated_surface_minute, rotated_rect_minute = rotate(hand_minute, angle_min * 6)
 
-    rotated_surface_hour, rotated_rect_hour = rotate(hand_hour, angle_hour * 6)
+    rotated_surface_second, rotated_rect_second = rotate(hand_second, angle_hour * 6)
 
     screen.blit(mickey,(0,0))
     screen.blit(rotated_surface_minute, rotated_rect_minute)
-    screen.blit(rotated_surface_hour, rotated_rect_hour)
-    print(rotated_rect_hour.topleft)
+    screen.blit(rotated_surface_second, rotated_rect_second)
+    print(rotated_rect_second.topleft)
     pygame.display.update()
     clock.tick(60)

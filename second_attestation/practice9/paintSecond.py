@@ -19,6 +19,44 @@ class draw_item:
         self.left = left
         self.top = top
 
+class Palitra():
+    def __init__(self, pos, width, height, color, paint):
+        self.color = color
+        self.paint = paint
+        self.top_rect = pygame.Rect((pos), (width, height))
+        self.top_color = color
+
+    def draw(self):
+        pygame.draw.rect(self.paint.paint_canvas, self.color, self.top_rect)
+        self.click()
+
+    def click(self):
+        mouse_pos = pygame.mouse.get_pos()
+        if self.top_rect.collidepoint(mouse_pos):
+            if pygame.mouse.get_pressed()[0]:
+                self.paint.positions = []
+                print(1)
+                self.paint.color = self.color
+class Button():
+    def __init__(self, pos, img, name, paint):
+        self.paint = paint
+        self.name = name
+        self.img = pygame.image.load(img)
+        self.top_rect = pygame.Rect((pos), (32, 32))
+
+    def draw(self):
+        pygame.draw.rect(self.paint.paint_canvas, 'black', self.top_rect)
+        self.paint.paint_canvas.blit(self.img, self.top_rect)
+        self.click()
+
+    def click(self):
+        mouse_pos = pygame.mouse.get_pos()
+        if self.top_rect.collidepoint(mouse_pos):
+            if pygame.mouse.get_pressed()[0]:
+                self.paint.positions = []
+                print(1)
+                print(self.name)
+                self.paint.draw_tool = self.name
 '''
 Класс отвечает за всю программу, там храняться все данные
 '''
@@ -47,7 +85,11 @@ class paint:
         self.radiusofdraw = 15
         self.points = []
         self.initialize()
-
+        self.colors = [(255, 0, 0), (255, 128, 0), (255, 255, 0), (128, 255, 0), (0, 255, 0), (0, 255, 128), (0, 255, 255), (0, 128, 255), (0, 0, 255)]
+        self.tools_img = ['icon/erase.png', 'icon/free_eraser.png', 'icon/marker.png', 'icon/line.png', 'icon/circle.png',
+                          'icon/square.png', 'icon/rectangle.png', 'icon/rhombus.png', 'icon/triangle.png', 'icon/rec_triangle.png']
+        self.name_of_tools = ['Eraser', 'Free Eraser', 'Draw', 'Line', 'Circle', 'Square', 'Rectangle', 'Rhombus',
+                              'Equilateral Triangle', 'Right Triangle']
     # Отвечает за размеры экрана и слой
     def initialize(self):
         self.screen_width = 1000
@@ -62,7 +104,7 @@ class paint:
 
         self.paint_canvas = pygame.Surface((self.screen_width, self.screen_height))
 
-    def crosshair(self):  # создан чтобы видить границы ластика(Free Eraser)
+    def crosshair(self):  # создан, чтобы видеть границы ластика(Free Eraser)
         pos = self.mouse_x, self.mouse_y
         self.work_canvas.fill(self.BLACK)
         pygame.draw.circle(self.work_canvas, (self.WHITE), pos, self.radiusofdraw + 2, 1)
@@ -304,8 +346,11 @@ class paint:
             aprogress = 1 - progress
             x = int(aprogress * start[0] + progress * end[0])
             y = int(aprogress * start[1] + progress * end[1])
-            pygame.draw.circle(self.paint_canvas, color, (x, y), width)
-
+            try:
+                pygame.draw.circle(self.paint_canvas, color, (x, y), width)
+            except:
+                self.positions = []
+        self.draw_toggle = False
     def draw_line_template(self):
         if self.draw_toggle == False and self.mousedown and self.mousebutton == 1:
             self.drawstart_x = self.mouse_x
@@ -334,18 +379,18 @@ class paint:
 
     '''Беря коорды начальной точки и конечной, он создает несколько темных кругов с определенным интервалом'''
     def free_eraser(self, i, start, end, width):
+        self.draw_toggle = False
+        if self.mousedown and self.mousebutton == 3:
+            dx = start[0] - end[0]
+            dy = start[1] - end[1]
+            iterations = max(abs(dx), abs(dy))
 
-        dx = start[0] - end[0]
-        dy = start[1] - end[1]
-        iterations = max(abs(dx), abs(dy))
-
-        for i in range(iterations):
-            progress = 1.0 * i / iterations
-            aprogress = 1 - progress
-            x = int(aprogress * start[0] + progress * end[0])
-            y = int(aprogress * start[1] + progress * end[1])
-            pygame.draw.circle(self.paint_canvas, self.BLACK, (x, y), width)
-
+            for i in range(iterations):
+                progress = 1.0 * i / iterations
+                aprogress = 1 - progress
+                x = int(aprogress * start[0] + progress * end[0])
+                y = int(aprogress * start[1] + progress * end[1])
+                pygame.draw.circle(self.paint_canvas, self.BLACK, (x, y), width)
     # Просто стирает прямоугольную область
     def eraser_template(self):
         if self.draw_toggle == False and self.mousedown and self.mousebutton == 1:
@@ -421,7 +466,8 @@ class paint:
             while i < len(self.positions) - 1:
                 self.free_eraser(i, self.positions[i], self.positions[i + 1], self.radiusofdraw)
                 i += 1
-
+        self.show_colors()
+        self.show_tool()
         self.show_mousestate()
 
     # отвечает за текст и как он будет отображаться
@@ -442,7 +488,26 @@ class paint:
         item = draw_item()
         item.add(textimg, 10, 10)
         self.draw_list.append(item)
+    def show_colors(self):
+        colors = []
+        x = 40
+        for color in self.colors:
+            colors += [Palitra((x, 700), 30, 25, color, self)]
+            x += 30
 
+        for color in colors:
+            color.draw()
+    def show_tool(self):
+        tools = []
+        x = 10
+        i = 0
+        for tool in self.tools_img:
+            tools += [Button((x, 20), tool, self.name_of_tools[i], self)]
+            x += 40
+            i += 1
+
+        for tool in tools:
+            tool.draw()
     # отвечает за предпросмотр нарисованного
     def draw_tool_template(self):
         item = draw_item()

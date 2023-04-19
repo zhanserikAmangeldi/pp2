@@ -104,7 +104,8 @@ running = True
 # Это специальный ивент, который отвечает за ускорение игры по истечению 1 секунды(1000 миллисекунд)
 inc_speed = pygame.USEREVENT + 1
 pygame.time.set_timer(inc_speed, 1000)
-
+background = pygame.mixer.music.load('image/background.wav')
+pygame.mixer_music.play()
 # Шрифты
 font = pygame.font.SysFont('Verdana', 40)
 font_score = pygame.font.SysFont('Verdana', 20)
@@ -117,6 +118,8 @@ while running:
             speed += 0.5
         if event.type == pygame.QUIT:
             running = False
+
+
     # Вывод элементов на экран
     screen.blit(BACKGROUND, (0,0))
     score_view = font_score.render(f'{score}', True, 'black')
@@ -126,6 +129,7 @@ while running:
 
     # Условие при котором игра знакончиться
     if pygame.sprite.spritecollide(p1, enemies, False, pygame.sprite.collide_mask):
+        pygame.mixer.music.stop()
         pygame.mixer.Sound('image/crash.wav').play()
         time.sleep(1)
 
