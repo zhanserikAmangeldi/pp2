@@ -5,37 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3f67a1e-4d2f-4bbe-8eed-5c51c93a097c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice7/music/C418 - Dry Hands.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice7/music/C418 - Mice on Venus.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice7/music/C418 - Minecraft.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice7/music/C418 - Sweden.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice7/music/C418 - Wet Hands.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice8/level/level0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice8/level/level1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice8/level/level2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice8/level/level3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice8/level/level4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice8/snakeBeta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice8/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice9/level/level0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice9/level/level1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice9/level/level2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice9/level/level3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attestation/practice9/level/level4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_attestation/lab10/first/file.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_attestation/lab10/first/sql_query.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attestation/practice7/clock.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attestation/practice7/clock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attestation/practice7/music.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attestation/practice7/music.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attestation/practice7/music/Sound1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attestation/practice7/music/Sound2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attestation/practice7/music/Sound3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attestation/practice7/music/Sound4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attestation/practice7/music/Sound5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attestation/practice7/third.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attestation/practice7/third.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attestation/practice8/paint.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attestation/practice8/paint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attestation/practice8/racer.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attestation/practice8/racer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attestation/practice8/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attestation/practice8/snake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attestation/lab10/first/add_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attestation/lab10/first/add_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attestation/lab10/first/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attestation/lab10/first/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attestation/lab10/first/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attestation/lab10/first/query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attestation/practice9/level/level0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attestation/practice9/level/level1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attestation/practice9/level/level2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attestation/practice9/level/level3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attestation/practice9/level/level4.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/second_attestation/practice9/paintSecond.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attestation/practice9/paintSecond.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attestation/practice9/racerSecond.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attestation/practice9/racerSecond.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/second_attestation/practice9/snakeSecond.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attestation/practice9/snakeSecond.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,31 +46,34 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/university/second/PP2/second_attestation/practice9&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/university/second/PP2/second_attestation/lab10/second&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.data.views&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\university\second\PP2\second_attestation\lab10\second" />
       <recent name="C:\university\second\PP2\second_attestation\practice9" />
       <recent name="C:\university\second\PP2\second_attestation\practice8\level" />
       <recent name="C:\university\second\PP2\second_attestation\practice8" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\university\second\PP2\second_attestation\lab10\first" />
+      <recent name="C:\university\second\PP2\second_attestation\lab10\second\icon" />
+      <recent name="C:\university\second\PP2\second_attestation\lab10\second" />
+      <recent name="C:\university\second\PP2\second_attestation\lab10" />
       <recent name="C:\university\second\PP2\second_attestation\practice9\icon" />
-      <recent name="C:\university\second\PP2\second_attestation\practice8\level" />
-      <recent name="C:\university\second\PP2\second_attestation\practice8" />
-      <recent name="C:\university\second\PP2\second_attestation\practice7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.paintSecond">
-    <configuration name="paintSecond" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="delete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PP2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,12 +81,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attestation/practice9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attestation/lab10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attestation/practice9/paintSecond.py" />
+      <option name="SCRIPT_NAME" value="C:\university\second\PP2\second_attestation\lab10\first\delete.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="racerSecond" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PP2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,56 +103,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attestation/practice9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attestation/lab10/first" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attestation/practice9/racerSecond.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="snake" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PP2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attestation/practice8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attestation/practice8/snake.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="snakeBeta" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PP2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attestation/practice8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attestation/practice8/snakeBeta.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attestation/lab10/first/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,12 +125,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attestation/practice9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attestation/lab10/second" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attestation/practice9/snakeSecond.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attestation/lab10/second/snakeSecond.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sql_query" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PP2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attestation/lab10/first" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attestation/lab10/first/sql_query.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PP2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attestation/lab10/second" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attestation/lab10/second/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.paintSecond" />
-        <item itemvalue="Python.racerSecond" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.sql_query" />
         <item itemvalue="Python.snakeSecond" />
-        <item itemvalue="Python.snakeBeta" />
-        <item itemvalue="Python.snake" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +235,20 @@
       <workItem from="1681824522414" duration="829000" />
       <workItem from="1681828840562" duration="4197000" />
       <workItem from="1681838822163" duration="2411000" />
-      <workItem from="1681887243606" duration="1045000" />
+      <workItem from="1681887243606" duration="1469000" />
+      <workItem from="1681916554383" duration="1029000" />
+      <workItem from="1681971782927" duration="61000" />
+      <workItem from="1682151203375" duration="2312000" />
+      <workItem from="1682155085316" duration="4951000" />
+      <workItem from="1682167526259" duration="13223000" />
+      <workItem from="1682225691909" duration="11543000" />
+      <workItem from="1682252106556" duration="3575000" />
+      <workItem from="1682350953337" duration="552000" />
+      <workItem from="1682415823034" duration="599000" />
+      <workItem from="1682424864592" duration="102000" />
+      <workItem from="1682427778358" duration="827000" />
+      <workItem from="1682435207423" duration="7926000" />
+      <workItem from="1682491227752" duration="3609000" />
     </task>
     <servers />
   </component>
@@ -271,17 +268,31 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythongame_py$second.coverage" NAME="second Coverage Results" MODIFIED="1680014930087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-study/pygame" />
+    <SUITE FILE_PATH="coverage/pythongame_py$update__1_.coverage" NAME="update (1) Coverage Results" MODIFIED="1682184036797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/lab10" />
+    <SUITE FILE_PATH="coverage/pythongame_py$sql_query.coverage" NAME="sql_query Coverage Results" MODIFIED="1682494944508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/lab10/first" />
     <SUITE FILE_PATH="coverage/pythongame_py$snakeBeta.coverage" NAME="snakeBeta Coverage Results" MODIFIED="1681835093082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice8" />
     <SUITE FILE_PATH="coverage/pythongame_py$music.coverage" NAME="music Coverage Results" MODIFIED="1681547979686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice7" />
-    <SUITE FILE_PATH="coverage/pythongame_py$paint.coverage" NAME="paint Coverage Results" MODIFIED="1681821054257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice8" />
-    <SUITE FILE_PATH="coverage/pythongame_py$paintSecond.coverage" NAME="paintSecond Coverage Results" MODIFIED="1681888619856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice9" />
+    <SUITE FILE_PATH="coverage/pythongame_py$querying_data.coverage" NAME="querying_data Coverage Results" MODIFIED="1682177330945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice10" />
     <SUITE FILE_PATH="coverage/pythongame_py$third.coverage" NAME="third Coverage Results" MODIFIED="1680016079952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-study/pygame" />
+    <SUITE FILE_PATH="coverage/pythongame_py$test.coverage" NAME="test Coverage Results" MODIFIED="1682229424121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/lab10/second" />
+    <SUITE FILE_PATH="coverage/pythongame_py$first.coverage" NAME="first Coverage Results" MODIFIED="1680014916128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-study/pygame" />
+    <SUITE FILE_PATH="coverage/pythongame_py$delete.coverage" NAME="delete Coverage Results" MODIFIED="1682187822907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/lab10" />
+    <SUITE FILE_PATH="coverage/pythongame_py$snake.coverage" NAME="snake Coverage Results" MODIFIED="1681821521871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice8" />
+    <SUITE FILE_PATH="coverage/pythongame_py$racerSecond.coverage" NAME="racerSecond Coverage Results" MODIFIED="1681916726419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice9" />
+    <SUITE FILE_PATH="coverage/pythongame_py$create_table.coverage" NAME="create_table Coverage Results" MODIFIED="1682157230833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice10" />
+    <SUITE FILE_PATH="coverage/pythongame_py$update.coverage" NAME="update Coverage Results" MODIFIED="1682159933560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice10" />
+    <SUITE FILE_PATH="coverage/pythongame_py$create_table__1_.coverage" NAME="create_table (1) Coverage Results" MODIFIED="1682183930487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/lab10" />
+    <SUITE FILE_PATH="coverage/pythongame_py$paint.coverage" NAME="paint Coverage Results" MODIFIED="1681821054257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice8" />
+    <SUITE FILE_PATH="coverage/pythongame_py$1.coverage" NAME="1 Coverage Results" MODIFIED="1682155952534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice10" />
+    <SUITE FILE_PATH="coverage/pythongame_py$paintSecond.coverage" NAME="paintSecond Coverage Results" MODIFIED="1682151220785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice9" />
+    <SUITE FILE_PATH="coverage/pythongame_py$insert_row.coverage" NAME="insert_row Coverage Results" MODIFIED="1682159452689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice10" />
     <SUITE FILE_PATH="coverage/pythongame_py$racer.coverage" NAME="racer Coverage Results" MODIFIED="1681548073892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice8" />
     <SUITE FILE_PATH="coverage/pythongame_py$third__1_.coverage" NAME="third (1) Coverage Results" MODIFIED="1681548612001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice7" />
-    <SUITE FILE_PATH="coverage/pythongame_py$snakeSecond.coverage" NAME="snakeSecond Coverage Results" MODIFIED="1681835571990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice9" />
-    <SUITE FILE_PATH="coverage/pythongame_py$first.coverage" NAME="first Coverage Results" MODIFIED="1680014916128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-study/pygame" />
-    <SUITE FILE_PATH="coverage/pythongame_py$snake.coverage" NAME="snake Coverage Results" MODIFIED="1681821521871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice8" />
+    <SUITE FILE_PATH="coverage/pythongame_py$snakeSecond.coverage" NAME="snakeSecond Coverage Results" MODIFIED="1682256964929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/lab10/second" />
+    <SUITE FILE_PATH="coverage/pythongame_py$transaction.coverage" NAME="transaction Coverage Results" MODIFIED="1682169141298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice10" />
+    <SUITE FILE_PATH="coverage/pythongame_py$main.coverage" NAME="main Coverage Results" MODIFIED="1682495218891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/lab10/first" />
     <SUITE FILE_PATH="coverage/pythongame_py$clock.coverage" NAME="clock Coverage Results" MODIFIED="1681547962037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice7" />
-    <SUITE FILE_PATH="coverage/pythongame_py$racerSecond.coverage" NAME="racerSecond Coverage Results" MODIFIED="1681835674624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/practice9" />
+    <SUITE FILE_PATH="coverage/pythongame_py$query.coverage" NAME="query Coverage Results" MODIFIED="1682187532409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/lab10" />
+    <SUITE FILE_PATH="coverage/pythongame_py$add_data.coverage" NAME="add_data Coverage Results" MODIFIED="1682183942647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attestation/lab10" />
   </component>
 </project>

@@ -53,6 +53,9 @@ class Button():
         mouse_pos = pygame.mouse.get_pos()
         if self.top_rect.collidepoint(mouse_pos):
             if pygame.mouse.get_pressed()[0]:
+
+
+
                 self.paint.positions = []
                 print(1)
                 print(self.name)

@@ -2,6 +2,12 @@ import psycopg2
 from config import config
 
 def get_parts(code, word):
+    code = int(input('''
+    return 1 for filter by name
+    return 2 for filter by phone
+    return 3 for filter by id
+    '''))
+    word = input()
     conn = None
     by_name = "SELECT * FROM phonebook WHERE first_name ILIKE %s"
     by_phone = "SELECT * FROM phonebook WHERE phone_num LIKE %s"
@@ -26,11 +32,3 @@ def get_parts(code, word):
         if conn is not None:
             conn.close()
 
-code = int(input('''
-    return 1 for filter by name
-    return 2 for filter by phone
-    return 3 for filter by id
-'''))
-word = input()
-if __name__ == '__main__':
-    get_parts(code, word)

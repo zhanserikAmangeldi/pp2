@@ -12,8 +12,8 @@ def add_row_from_csv():
         file_reader = csv.reader(file)
 
         sql = """
-            INSERT INTO phonebook (first_name, second_name, phone_num, email)
-            VALUES (%s, %s, %s, %s);
+            INSERT INTO phonebook (contact, phone_num)
+            VALUES (%s, %s);
         """
         conn = None
 
