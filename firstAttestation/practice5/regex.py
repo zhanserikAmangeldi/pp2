@@ -34,8 +34,9 @@ def p10(s:str):
 
 pattern10 = r'(?P<before>[a-z]+)(?P<snake>[A-Z])'
 
-print(re.sub(pattern10, p10, text))
-
-
+# print(re.sub(pattern10, p10, text))
+pattern_name = r'[a-zA-Z]+'
+pattern_phone = r'[0-9]+'
+print(re.findall(pattern_phone, 'Zhanserik, 8705-4578237'))
 
 # print(pattern10(text))

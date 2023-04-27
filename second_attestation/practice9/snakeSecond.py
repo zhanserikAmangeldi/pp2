@@ -157,6 +157,8 @@ def game():
         else:
             if (player_pos[0], player_pos[1], 10, 10) in levels[level].coords:
                 break
+        if a1.pos in levels[level].coords:
+            a1.updates()
         if player_pos in snake[1:]:
             break
 

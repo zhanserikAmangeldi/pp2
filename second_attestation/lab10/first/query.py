@@ -9,7 +9,7 @@ def get_parts(code, word):
     '''))
     word = input()
     conn = None
-    by_name = "SELECT * FROM phonebook WHERE first_name ILIKE %s"
+    by_name = "SELECT * FROM phonebook WHERE contact ILIKE %s"
     by_phone = "SELECT * FROM phonebook WHERE phone_num LIKE %s"
     by_id = "SELECT * FROM phonebook WHERE human_id = %s"
     try:
@@ -32,3 +32,4 @@ def get_parts(code, word):
         if conn is not None:
             conn.close()
 
+get_parts(1, 'Zha')
