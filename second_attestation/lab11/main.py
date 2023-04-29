@@ -21,30 +21,30 @@ while True:
         YOUR ANSWER --> """))
     if action == 7:
         pattern = input()
-        name = "SELECT * FROM phonebook WHERE contact ILIKE %s or phone_num LIKE %s LIMIT 5 OFFSET %s"
         # phone = "SELECT COUNT(*) FROM phonebook WHERE phone_num LIKE %s"
         offset = 0
         while True:
-            cur.execute(name, ('%' + pattern + '%', '%' + pattern + '%', offset))
-            for element in cur.fetchall():
+            cur.execute(sql_search_by_pattern, ('%' + pattern + '%', '%' + pattern + '%', offset))
+            info = cur.fetchall()
+            for element in info:
                 print(element)
             print(int(offset / 5), offset)
             action = int(input('send 1 for next, send 2 for previous, send 0 for break'))
-            if action == 1:
-                offset += 5
-            if action == 2:
-                if offset - 5 < 0:
-                    print('NO')
-                else:
-                    offset -= 5
-
-            if action == 3:
+            if not info:
+                if action == 1:
+                    offset += 5
+                if action == 2:
+                    if offset - 5 < 0:
+                        print('NO')
+                    else:
+                        offset -= 5
+            if action == 0:
                 break
-    if action == 1:
+    elif action == 1:
         print(1)
         cur.execute(sql_create_table)
         conn.commit()
-    if action == 2:
+    elif action == 2:
         action = int(input("""
             send 1 for upload from csv
             send 2 for entering from console (sample: "[name], [number]"
@@ -68,7 +68,7 @@ while True:
             path = input("Write path (without spaces) --> ")
             cur.execute(sql_upload_from_csv, (path, ))
             conn.commit()
-        if action == 2:
+        elif action == 2:
             print("write 'end' for quit mode")
             while True:
                 name = input("contact name --> ")
@@ -85,7 +85,7 @@ while True:
                     cur.execute(sql_entering_from_console, (name, str(number)))
                     print("new contact created")
                 conn.commit()
-        if action == 3:
+        elif action == 3:
             print("write 'end' for quit mode")
             returned_list = ''
             # elements = element.split(sep='\n')
@@ -163,7 +163,7 @@ while True:
                     cur.execute(sql_change_name_by_name, (new_number, name))
                 else:
                     print("this contact do not exist")
-        if action == 3:
+        elif action == 3:
             number = input("number: ")
             action = int(input("send 1 for change name\nsend 2 for change number\nYOUR ANSWER --> "))
             if action == 1:
@@ -181,7 +181,7 @@ while True:
                     cur.execute(sql_change_name_by_phone, (new_name, number))
                 else:
                     print("this contact do not exist")
-            if action == 2:
+            elif action == 2:
                 new_number = input("new number: ")
                 cur.execute(sql_check_exist_by_phone, (number, ))
                 count = cur.fetchone()[0]
@@ -254,7 +254,7 @@ while True:
                 end = int(input("1 for end, 0 for continue"))
                 if end:
                     break
-        if action == 2:
+        elif action == 2:
             while True:
                 name = input("number or end for end: ")
                 cur.execute(sql_check_exist_by_phone, (name,))
@@ -277,5 +277,5 @@ while True:
     elif action == 6:
         cur.execute(sql_clear_all)
         conn.commit()
-    if action == 0:
+    elif action == 0:
         break

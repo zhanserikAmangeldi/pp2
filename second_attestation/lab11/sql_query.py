@@ -45,3 +45,5 @@ sql_delete_by_name = "DELETE FROM phonebook WHERE contact = %s"
 sql_delete_by_id = "DELETE FROM phonebook WHERE human_id = %s"
 sql_delete_by_phone = "DELETE FROM phonebook WHERE phone_num = %s"
 sql_clear_all = "TRUNCATE TABLE phonebook"
+
+sql_search_by_pattern = "SELECT * FROM phonebook WHERE contact LIKE %s or phone_num LIKE %s LIMIT 5 OFFSET %s"

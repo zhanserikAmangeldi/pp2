@@ -64,7 +64,7 @@ def game():
     # Здесь я прописал начальную позицию змей и добавил элемент который определять куда должен повернутся и движется змея
     change = 'left' # указывает куда должен повернутся
     direction = 'left' # показывает куда двигалась до этого змея и из-за change меняет направление
-    # это сделанно чтобы змея не меняло свое направление на противоположное
+    # это сделано чтобы змея не меняло свое направление на противоположное
 
 
 
@@ -75,11 +75,9 @@ def game():
     pygame.time.set_timer(minuslife, 1000)
 
     level_change = False
-    time_now = 0
     time_before = 0
 
-    flash = pygame.USEREVENT + 2
-    pygame.time.set_timer(flash, 1000)
+
     input_rect = pygame.Rect(100, 200, 158, 30)
     base_font = pygame.font.SysFont(None, 32)
     user_text = ''
@@ -148,17 +146,28 @@ def game():
 
     cur.execute(sql_check_of_exist, (user_text,))
     count = cur.fetchone()[0]
-    cur.execute("SELECT score, x, y FROM score WHERE nickname = %s", (user_text,))
+
 
     pause = False
     if count != 0:
-        SCORE, x, y = cur.fetchone()
+        cur.execute("SELECT score, x, y, direction FROM score WHERE nickname = %s", (user_text,))
+        SCORE, x, y, change = cur.fetchone()
+        direction = change
         player_pos = [x, y]
-        snake = [[x, y], [x+10, y], [x + 20, y]]
+        if change == 'right':
+            snake = [[x, y], [x-10, y], [x - 20, y]]
+        else:
+            snake = [[x, y], [x + 10, y], [x + 20, y]]
         pause = True
+        old_level = 0
+        if SCORE // 4 > 4:
+            old_level = 4
+        else:
+            old_level = SCORE // 4
         while True:
             screen.fill(BG_COLOR)
             screen.blit(score_font.render(f'YOUR SCORE: {SCORE}', True, 'black'), (100, 200))
+            screen.blit(score_font.render(f'YOUR LEVEL: {old_level}', True, 'black'), (100, 240))
             pygame.display.update()
             time.sleep(1)
             break
@@ -224,16 +233,17 @@ def game():
         if player_pos[0] == a1.pos[0] and player_pos[1] == a1.pos[1]:
             score += a1.weight
             a1.spawn = True
-            old_level = level
-            level = score // 4
-            if level > len(levels) - 1:
-                level = len(levels) - 1
-            if level > old_level:
-                print(1)
-                level_change = True
-                time_before = pygame.time.get_ticks()
         else:
             snake.pop()
+        old_level = level
+        level = score // 4
+        if level > len(levels) - 1:
+            level = len(levels) - 1
+        if level > old_level:
+            print(1)
+            level_change = True
+            time_before = pygame.time.get_ticks()
+
         if (a1.pos[0], a1.pos[1], 10, 10) in levels[level].coords:
             a1.spawn = True
         time_now = pygame.time.get_ticks()
@@ -279,23 +289,19 @@ def game():
         cur.execute(sql_check_of_exist, (user_text,))
         count = cur.fetchone()[0]
         if count == 0:
-            cur.execute(sql_insert, (user_text, int(score), player_pos[0], player_pos[1]))
+            print(direction)
+            cur.execute(sql_insert, (user_text, int(score), player_pos[0], player_pos[1], change))
         else:
-            cur.execute(sql_update, (int(score), player_pos[0], player_pos[1], user_text))
+            print(direction)
+            cur.execute(sql_update, (int(score), player_pos[0], player_pos[1], change, user_text))
     else:
         cur.execute(sql_clear, (user_text, ))
-
 
     conn.commit()
     conn.close()
     cur.close()
-
-
-
-
-
     # Цикл для меню выбора после проигрыша игрока
-    while running:
+    while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
@@ -303,7 +309,8 @@ def game():
                 if event.key == pygame.K_r:
                     game()
                 if event.key == pygame.K_q:
-                    running = False
+                    pygame.quit()
+                    sys.exit()
         screen.fill(BG_COLOR)
 
         screen.blit(score_font.render('Press R for restart or Q for quit', True, 'black'), (35, 200))
@@ -311,5 +318,3 @@ def game():
 
 
 game()
-
-pygame.quit()

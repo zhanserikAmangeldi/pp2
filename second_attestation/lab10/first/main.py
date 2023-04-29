@@ -23,7 +23,7 @@ while True:
         print(1)
         cur.execute(sql_create_table)
         conn.commit()
-    if action == 2:
+    elif action == 2:
         action = int(input("""
             send 1 for upload from csv
             send 2 for entering from console (sample: "[name], [number]")
@@ -45,7 +45,7 @@ while True:
                 cur.execute(sql_entering_from_csv, (name, str(number)))
                 conn.commit()
                 print("new contact created")
-    if action == 3:
+    elif action == 3:
         action = int(input("""
             send 1 for updating by id
             send 2 for updating by name
@@ -128,7 +128,7 @@ while True:
                 else:
                     print("this contact do not exist")
         conn.commit()
-    if action == 4:
+    elif action == 4:
         while True:
             filter_id = int(input("1 for turn on, 0 for turn off id\nans: "))
             filter_name = int(input("1 for turn on, 0 for turn off name\nans: "))
@@ -163,7 +163,7 @@ while True:
             end = int(input("1 for end, 0 for continue"))
             if end:
                 break
-    if action == 5:
+    elif action == 5:
         while True:
             name = input("name or end for end: ")
             cur.execute(sql_check_exist_by_name, (name,))
@@ -183,8 +183,8 @@ while True:
             end = int(input("1 for end, 0 for continue"))
             if end:
                 break
-    if action == 6:
+    elif action == 6:
         cur.execute(sql_clear_all)
         conn.commit()
-    if action == 0:
+    elif action == 0:
         break
