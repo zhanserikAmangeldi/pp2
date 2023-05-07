@@ -69,22 +69,9 @@ while True:
             cur.execute(sql_upload_from_csv, (path, ))
             conn.commit()
         elif action == 2:
-            print("write 'end' for quit mode")
-            while True:
-                name = input("contact name --> ")
-                if name == 'end':
-                    break
-                number = input("contact number --> ")
-                if number == 'end':
-                    break
-                cur.execute(sql_check_exist_by_name, (name, ))
-                if cur.fetchone()[0] != 0:
-                    cur.execute(sql_change_phone_by_name, (number, name))
-                    print("contact updated")
-                else:
-                    cur.execute(sql_entering_from_console, (name, str(number)))
-                    print("new contact created")
-                conn.commit()
+            name = input()
+            phone = input()
+            cur.execute('call insert(%s, %s)', (name, phone))
         elif action == 3:
             print("write 'end' for quit mode")
             returned_list = ''

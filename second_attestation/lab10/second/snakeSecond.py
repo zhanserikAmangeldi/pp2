@@ -275,6 +275,7 @@ def game():
         if player_pos in snake[1:]:
             break
 
+
         # Отрисовка элементов игры(змея, яблоко, показатели, четра для отделения игрового поля и показателей)
         for pos in snake:
             pygame.draw.rect(screen, SNAKE_COLOR, pygame.Rect(pos[0], pos[1], 10, 10))
